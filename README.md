@@ -14,8 +14,8 @@ Our issue tracker is available here: https://github.com/Sudarshan-Gowda/Spring-B
 
 ### prerequisites
 The following items should be installed in your system:
-* Tool - STS(Spring Toot Suite) or Eclipse
-* Server - Apache Tomcat 7
+* Tool - STS(Spring Toot Suite) or Eclipse (Optional)
+* Server - Apache Tomcat 7 or any version
 
 ### Steps:
 
@@ -23,17 +23,17 @@ The following items should be installed in your system:
 ```
 git clone https://github.com/Sudarshan-Gowda/Spring-Boot-War-Deployment.git
 ```
-2) To Import the Praject Using STS or Eclipse. (This step is optional), Directly you can follow the below steps.
+2) To Import the Praject Using STS or Eclipse. (This step is optional), Directly you can follow the below steps (Steps to test the application).
 ```
 File -> Import -> Maven -> Existing Maven project
 ```
 
 ## Steps to test the application:
 
-1) Clone the Repository and do maven mvn clean install (if your using maven plugin means) this will create deployable war file under the target folder.
-2) Install the tomcat server if you dont have means, After installation place the war file under the tomcat directory of /webapps and start the .bat file in case windows.
-3) Then access the url for croos verifying the deployed application is accessible or not. <br>
-  http://localhost:8080/Spring-Boot-App/
+1) Clone the Repository and do maven `mvn clean install` (if your using maven plugin means or else find the one here (https://maven.apache.org/) this will create deployable war file under the target folder. <br>
+2) Go to the tomcat directory `/webapps` and place the war file which is generated in previous step and start the .bat file in case windows. (If you dont have tomcat server means you can get it here http://tomcat.apache.org/) <br>
+3) Then access the url for cros verifying the deployed application is accessible or not. <br>
+    http://localhost:8080/Spring-Boot-App/
   <br>
   
   <img src="https://github.com/Sudarshan-Gowda/Spring-Boot-War-Deployment/blob/master/docs/Pic1.png" width="100%">
