@@ -34,6 +34,11 @@ File -> Import -> Maven -> Existing Maven project
 2) Install the tomcat server if you dont have means, After installation place the war file under the tomcat directory of /webapps and start the .bat file in case windows.
 3) Then access the url for croos verifying the deployed application is accessible or not. <br>
   http://localhost:8080/Spring-Boot-App/
+  <br>
+  
+  <img src="https://github.com/Sudarshan-Gowda/Spring-Boot-War-Deployment/blob/master/docs/Pic1.png" width="100%">
+   
+   
    
 # Contributing
 
