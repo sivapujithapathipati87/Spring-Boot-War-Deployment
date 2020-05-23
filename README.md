@@ -23,7 +23,7 @@ The following items should be installed in your system:
 ```
 git clone https://github.com/Sudarshan-Gowda/Spring-Boot-War-Deployment.git
 ```
-2) To Import the Praject Using STS or Eclipse.
+2) To Import the Praject Using STS or Eclipse. (This step is optional), Directly you can follow the below steps.
 ```
 File -> Import -> Maven -> Existing Maven project
 ```
@@ -32,7 +32,7 @@ File -> Import -> Maven -> Existing Maven project
 
 1) Clone the Repository and do maven mvn clean install (if your using maven plugin means) this will create deployable war file under the target folder.
 2) Install the tomcat server if you dont have means, After installation place the war file under the tomcat directory of /webapps and start the .bat file in case windows.
-3) Then access the url for croos verifying the deployed application is accessible or not.
+3) Then access the url for croos verifying the deployed application is accessible or not. <br>
   http://localhost:8080/Spring-Boot-App/
    
 # Contributing
