@@ -31,7 +31,7 @@ File -> Import -> Maven -> Existing Maven project
 ## Steps to test the application:
 
 1) Clone the Repository and do maven `mvn clean install` (if your using maven plugin means or else find the one here (https://maven.apache.org/) this will create deployable war file under the target folder. <br>
-2) Go to the tomcat directory `/webapps` and place the war file which is generated in previous step and start the .bat file in case windows. (If you dont have tomcat server means you can get it here http://tomcat.apache.org/) <br>
+2) Go to the tomcat directory `/webapps` and place the war file which is generated in previous step and start the .bat file(for windows), .sh file(Linux).  (If you dont have tomcat server means you can get it here http://tomcat.apache.org/) <br>
 3) Then access the url for cros verifying the deployed application is accessible or not. <br>
     http://localhost:8080/Spring-Boot-App/
   <br>
